@@ -2,6 +2,7 @@
 
 ChatWeb is a real-time chat application that allows users to register, log in, and chat with other users. It features user authentication, real-time messaging, and a user-friendly interface.
 
+
 ## Features
 
 - **User Registration**: Users can create an account by providing their name, email, and password.
@@ -27,8 +28,8 @@ ChatWeb is a real-time chat application that allows users to register, log in, a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ChatWeb.git
-   cd ChatWeb
+   git clone https://github.com/AbdelhaliemAdham/chat-app.git
+   cd chat-app
    ```
 
 2. Install the dependencies for both the frontend and backend:
@@ -37,12 +38,6 @@ ChatWeb is a real-time chat application that allows users to register, log in, a
    npm install
    cd ../backend
    npm install
-   ```
-
-3. Create a `.env` file in the `backend` directory and add your MongoDB URI and JWT secret:
-   ```env
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
    ```
 
 ### Running the Application
@@ -59,7 +54,7 @@ ChatWeb is a real-time chat application that allows users to register, log in, a
    npm start
    ```
 
-3. Open your browser and navigate to `http://localhost:3000` to use the application.
+3. Open your browser and navigate to `http://localhost:yourPort` to use the application.
 
 ## Usage
 

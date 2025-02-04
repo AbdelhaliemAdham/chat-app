@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
-import LoadingIndicator from "../components/LoadingIndicator";
-import Chat from "../components/chat";
+import Chat from "../components/Chat";
 import OtherChat from "../components/otherChat";
 import ChatForm from "../components/ChatForm";
 import NoChat from "../assets/NoChat.svg";

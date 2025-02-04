@@ -50,6 +50,7 @@ function ChatProvider({ children, user }) {
   }, [chatMessages]);
 
   //receive Message
+
   useEffect(() => {
     if (socket === null) return;
     socket.on("getMessages", (res) => {

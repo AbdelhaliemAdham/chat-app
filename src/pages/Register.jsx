@@ -4,11 +4,6 @@ import { AuthContext } from "../context/AuthContext";
 import CustomModel from "../components/Modal";
 
 function Register() {
-  const [values, setValues] = React.useState({
-    name: "",
-    email: "",
-    password: "",
-  });
   const { registerUser, error } = React.useContext(AuthContext);
   const [showModal, setShowModal] = React.useState(false);
   const [showSuccessModal, setShowSuccessModal] = React.useState(false);
@@ -23,7 +18,7 @@ function Register() {
     const name = data.get("name");
     const email = data.get("email");
     const password = data.get("password");
-    const response = await registerUser({ name, email, password });
+    await registerUser({ name, email, password });
     setLoading(false);
     if (error) {
       setShowModal(true);

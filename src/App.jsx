@@ -9,6 +9,8 @@ import { AuthContext } from "./context/AuthContext";
 import React from "react";
 import ChatProvider from "./context/ChatContext";
 import Navbar from "./components/Nav-bar";
+import Register from "./pages/register";
+import Login from "./pages/Login";
 
 function App() {
   const { user } = React.useContext(AuthContext);
